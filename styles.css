@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.header, .hero, .footer {
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.ad {
+    background-color: #3882F6;
+}
+
+.header-logo, .hero-text-large, .hero-button, .ad-text-large {
+    color: #f9faf8;
+}
+
+li, .hero-text-small {
+    color: #e5e7eb;
+}
+
+.item-text, .quote-text-small, .ad-button {
+    color: #1F2937;
+}
+
+.footer {
+    color: white;
+}
+
+.hero-text-large{
+    font-size: 48px;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.gallery-text-large, .quote-text-large {
+    font-size: 36px;
+}
+
+.quote-text-large{
+    font-style: italic;
+    font-weight: 100;
+}
+
+.gallery-flex-item img{
+    border-style: solid;
+    border-color: #3882F6;
+    padding: 32px;
+}
+
+.hero-button, .ad-button {
+    background-color: #3882F6;
+    padding: 8px 16px;
+}
+
+.hero-button {
+    border-style: none;
+}
+
+.ad-button {
+    color: white;
+    border-style: solid;
+    border-color: white;
+}
+
+.hero-text-large, .gallery-text-large {
+    font-weight: 900;
+}
